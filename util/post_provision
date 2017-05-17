@@ -1,0 +1,1 @@
+vagrant ssh -c "ssh-keyscan -t rsa bitbucket.org, 131.103.20.168 >> ~/.ssh/known_hosts && cd /var/www && composer install && composer update && php artisan key:generate && php artisan migrate && php artisan db:seed"

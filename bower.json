@@ -1,0 +1,17 @@
+{
+  "name": "php-zend-learning",
+  "description": "",
+  "main": "",
+  "authors": [
+    "leolana <leolucas.lana@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
